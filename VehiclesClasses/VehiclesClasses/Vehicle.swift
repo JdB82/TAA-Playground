@@ -21,14 +21,16 @@ class Vehicle {
     
     func lightsOnOrOff() -> Bool {
         return !lightsOnOff
+     
     }
+    func accelerate(acceleration: Int) -> Int{
+        topSpeed += 1
+        return(topSpeed)
+    }
+    
     
     //create another function to accelerate, your function will incrase the topSpeed
-    func accelerate(acceleration: Int) {
-        //add a loop here to accelerate from 0 to the topSpeed 
-        topSpeed += acceleration
-    }
-    
+    //add a loop here to accelerate from 0 to the topSpeed
     //create another fucntion to decelerate, decrease the top Speedå
     
 }

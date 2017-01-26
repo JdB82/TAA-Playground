@@ -25,6 +25,9 @@ if ferrari.lightsOnOff{
     print("Your light are off")
 }
 
+ferrari topSpeed()
+    
+
 chopper.accelerate(acceleration: 5)
 ferrari.accelerate(acceleration: 20)
 
