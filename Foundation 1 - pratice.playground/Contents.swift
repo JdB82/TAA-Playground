@@ -61,12 +61,52 @@ for shoppinglist in shoppinglist {
 
 class Vehicle {
     
-    
 }
 
 class Car: Vehicle {
     
 }
+
+//13)
+
+//var lotteryWin = 10000000  //integer
+//var winOrNot: String
+//switch lotteryWin {
+//
+//case 1...10000000:
+//    winOrNot = "I won!!!!!!"
+//
+//default:
+//    winOrNot = "I lose again!!!!"
+//}
+//
+//print(winOrNot)
+
+//14)
+
+
+
+//15)
+
+//A Guard statement is used to exit early from a function if some condition is not met.
+
+
+//16)
+var lotterWin = 10000000
+
+func lotteryWin() {
+
+    guard lotterWin < 100 else {
+        print("You didn't win much")
+        return
+    }
+
+    print("You didn't win much")
+}
+
+lotteryWin()
+
+
 
 
 
