@@ -24,7 +24,7 @@ class Vehicle {
      
     }
     func accelerate(acceleration: Int) -> Int{
-        topSpeed += 1
+//        topSpeed += 1
         return(topSpeed)
     }
     
