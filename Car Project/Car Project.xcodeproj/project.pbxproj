@@ -10,7 +10,7 @@
 		60E596F21E4339FD00595BE3 /* Bicycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E596F11E4339FD00595BE3 /* Bicycle.swift */; };
 		60E596F41E4351E200595BE3 /* Boat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E596F31E4351E200595BE3 /* Boat.swift */; };
 		60EBDFF31E42785B001E056C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EBDFF21E42785B001E056C /* main.swift */; };
-		60EBDFFA1E427876001E056C /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EBDFF91E427876001E056C /* Vehicle.swift */; };
+		60EBDFFA1E427876001E056C /* baseClassVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EBDFF91E427876001E056C /* baseClassVehicle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +30,7 @@
 		60E596F31E4351E200595BE3 /* Boat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boat.swift; sourceTree = "<group>"; };
 		60EBDFEF1E42785B001E056C /* Car Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Car Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EBDFF21E42785B001E056C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		60EBDFF91E427876001E056C /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vehicle.swift; path = ../Vehicle.swift; sourceTree = "<group>"; };
+		60EBDFF91E427876001E056C /* baseClassVehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = baseClassVehicle.swift; path = ../baseClassVehicle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				60EBDFF21E42785B001E056C /* main.swift */,
-				60EBDFF91E427876001E056C /* Vehicle.swift */,
+				60EBDFF91E427876001E056C /* baseClassVehicle.swift */,
 				60E596F11E4339FD00595BE3 /* Bicycle.swift */,
 				60E596F31E4351E200595BE3 /* Boat.swift */,
 			);
@@ -129,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60EBDFFA1E427876001E056C /* Vehicle.swift in Sources */,
+				60EBDFFA1E427876001E056C /* baseClassVehicle.swift in Sources */,
 				60E596F41E4351E200595BE3 /* Boat.swift in Sources */,
 				60EBDFF31E42785B001E056C /* main.swift in Sources */,
 				60E596F21E4339FD00595BE3 /* Bicycle.swift in Sources */,
